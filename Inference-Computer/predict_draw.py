@@ -10,7 +10,7 @@ import numpy as np
 
 import glob
 
-options = {"model": "cfg/tiny-yolo-voc.cfg", "load": "bin/tiny-yolo-voc.weights", "threshold": 0.15}
+options = {"model": "../cfg/tiny-yolo-voc.cfg", "load": "../bin/tiny-yolo-voc.weights", "threshold": 0.15}
 
 tfnet = TFNet(options)
 
